@@ -17,6 +17,8 @@ export enum APIService {
    * 内置的数据统计服务，详见 统计信息。
    */
   StatsService = 'StatsService',
+
+  RoutingService = 'RoutingService'
 }
 
 export interface IV2rayAPI {
